@@ -1,0 +1,25 @@
+{
+  "name": "performance-optimization-v2",
+  "version": "1.0.0",
+  "description": "FEWD Treehouse Unit 11. Performance project where the goal is to adjust predefined webpage to load as fast as it can.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strengur/performance-optimization-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strengur/performance-optimization-v2/issues"
+  },
+  "homepage": "https://github.com/strengur/performance-optimization-v2#readme",
+  "devDependencies": {
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2"
+  }
+}
