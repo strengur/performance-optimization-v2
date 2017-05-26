@@ -14,7 +14,7 @@
 }
 .menu .inline-list a {
     color: rgb(72, 84, 97);
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 0.125rem;
     padding-bottom: 0.5rem;
     text-transform: uppercase;
@@ -47,7 +47,7 @@
     border-radius: .25rem;
     color: rgb(122, 137, 149);
     font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: normal;
     margin-left: 0.5rem;
     padding: 0.5rem 1.5rem;
@@ -63,7 +63,7 @@
     background-size: contain;
     font-family: "Arvo", serif;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1;
     margin: 0 0 1rem 0;
     color: rgb(72, 84, 97);
