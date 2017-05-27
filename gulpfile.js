@@ -4,7 +4,8 @@ var gulp = require('gulp'),
   concat = require('gulp-concat'),
   uglify = require('gulp-uglify'),
   rename = require('gulp-rename'),
-  cleanCSS  = require('gulp-clean-css');
+  cleanCSS  = require('gulp-clean-css'),
+  image = require('gulp-image');
 
 gulp.task('concatScripts', function() {
   gulp.src([
@@ -45,6 +46,14 @@ gulp.task('cleanStyles', function() {
     .pipe(cleanCSS())
     .pipe(rename('style.min.css'))
     .pipe(gulp.dest('css'))
+});
+
+gulp.task('image', function () {
+  gulp.src('./img/*/**')
+    .pipe(image({
+      concurrent : 5
+    }))
+    .pipe(gulp.dest('./imgs'));
 });
 
 gulp.task('default', ['concatScripts', 'concatCSS', 'minifyScripts', 'cleanStyles'], function() {

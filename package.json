@@ -10,15 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/strengur/performance-optimization-v2.git"
   },
-  "author": "",
+  "author": "Steingrímur",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/strengur/performance-optimization-v2/issues"
   },
   "homepage": "https://github.com/strengur/performance-optimization-v2#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-clean-css": "^3.0.4",
     "gulp-concat": "^2.6.1",
+    "gulp-image": "^2.9.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.1.2"
   }
